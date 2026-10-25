@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: infrastructure
+
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update # Cria/atualiza as tabelas automaticamente com base nas tuas Entities
+    show-sql: true     # Mostra as queries SQL no terminal (ótimo para debug)
+    properties:
+      hibernate:
+        format_sql: true
+
+  h2:
+    console:
+      enabled: true    # Ativa a consola web do H2
+      path: /h2-console # URL de acesso à consola (/h2-console)

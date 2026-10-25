@@ -1,0 +1,10 @@
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/gateway/ProdutoGateway.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/gateway/UsuarioGateway.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/usecase/AtualizarProdutoUseCase.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/usecase/BuscarProdutoUseCase.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/usecase/BuscarUsuarioUseCase.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/usecase/CadastrarProdutoUseCase.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/usecase/CadastrarUsuarioUseCase.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/usecase/DeletarProdutoUseCase.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/usecase/impl/CadastrarProdutoUseCaseImpl.java
+/home/loscar/Documentos/crud/application/src/main/java/com/github/carlosouzadev/application/usecase/impl/CadastrarUsuarioUseCaseImpl.java

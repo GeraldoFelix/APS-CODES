@@ -1,0 +1,14 @@
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/Application.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/config/UseCaseConfig.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/controller/ProdutoController.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/controller/UsuarioController.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/dto/request/ProdutoRequestDTO.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/dto/request/UsuarioRequestDTO.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/gateway/ProdutoGatewayImpl.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/gateway/UsuarioGatewayImpl.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/mapper/ProdutoMapper.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/mapper/UsuarioMapper.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/model/ProdutoEntity.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/model/UsuarioEntity.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/repository/ProdutoRepository.java
+/home/loscar/Documentos/crud/infrastructure/src/main/java/com/github/carlosouzadev/infrastructure/repository/UsuarioRepository.java

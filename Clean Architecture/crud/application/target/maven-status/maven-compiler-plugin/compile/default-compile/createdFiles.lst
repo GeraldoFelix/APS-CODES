@@ -1,0 +1,10 @@
+com/github/carlosouzadev/application/gateway/ProdutoGateway.class
+com/github/carlosouzadev/application/usecase/CadastrarProdutoUseCase.class
+com/github/carlosouzadev/application/usecase/impl/CadastrarUsuarioUseCaseImpl.class
+com/github/carlosouzadev/application/usecase/impl/CadastrarProdutoUseCaseImpl.class
+com/github/carlosouzadev/application/usecase/BuscarUsuarioUseCase.class
+com/github/carlosouzadev/application/usecase/DeletarProdutoUseCase.class
+com/github/carlosouzadev/application/usecase/CadastrarUsuarioUseCase.class
+com/github/carlosouzadev/application/usecase/BuscarProdutoUseCase.class
+com/github/carlosouzadev/application/gateway/UsuarioGateway.class
+com/github/carlosouzadev/application/usecase/AtualizarProdutoUseCase.class

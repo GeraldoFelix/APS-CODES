@@ -1,0 +1,16 @@
+com/github/carlosouzadev/infrastructure/gateway/UsuarioGatewayImpl.class
+com/github/carlosouzadev/infrastructure/dto/request/UsuarioRequestDTO.class
+com/github/carlosouzadev/infrastructure/model/UsuarioEntity.class
+com/github/carlosouzadev/infrastructure/model/ProdutoEntity.class
+com/github/carlosouzadev/infrastructure/Application.class
+com/github/carlosouzadev/infrastructure/mapper/UsuarioMapperImpl.class
+com/github/carlosouzadev/infrastructure/controller/ProdutoController.class
+com/github/carlosouzadev/infrastructure/mapper/ProdutoMapperImpl.class
+com/github/carlosouzadev/infrastructure/gateway/ProdutoGatewayImpl.class
+com/github/carlosouzadev/infrastructure/controller/UsuarioController.class
+com/github/carlosouzadev/infrastructure/repository/UsuarioRepository.class
+com/github/carlosouzadev/infrastructure/mapper/UsuarioMapper.class
+com/github/carlosouzadev/infrastructure/dto/request/ProdutoRequestDTO.class
+com/github/carlosouzadev/infrastructure/repository/ProdutoRepository.class
+com/github/carlosouzadev/infrastructure/mapper/ProdutoMapper.class
+com/github/carlosouzadev/infrastructure/config/UseCaseConfig.class
