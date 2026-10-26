@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Usuário</title>
+    <style>
+        body { font-family: sans-serif; margin: 2rem; }
+        .ok { color: #0a7a2f; }
+        .erro { color: #b00020; }
+        input { margin-right: .5rem; }
+    </style>
+</head>
+<body>
+<!-- VIEW: só apresenta os dados que o Controller entrega. Sem regra de negócio. -->
+<h1>Usuário <span th:text="${usuario.id}"></span></h1>
+
+<p class="ok" th:if="${sucesso}" th:text="${sucesso}"></p>
+<p class="erro" th:if="${erro}" th:text="${erro}"></p>
+
+<h2>Atualizar</h2>
+<form th:action="@{/usuarios/{id}(id=${usuario.id})}" method="post">
+    Nome: <input name="nome" th:value="${usuario.nome}" required>
+    <button>Atualizar</button>
+</form>
+
+<h2>Deletar</h2>
+<form th:action="@{/usuarios/{id}/deletar(id=${usuario.id})}" method="post">
+    <button>Deletar este usuário</button>
+</form>
+
+<p><a href="/usuarios">Voltar para a lista</a></p>
+</body>
+</html>

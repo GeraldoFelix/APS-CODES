@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Usuários</title>
+    <style>
+        body { font-family: sans-serif; margin: 2rem; }
+        .ok { color: #0a7a2f; }
+        .erro { color: #b00020; }
+        input { margin-right: .5rem; }
+    </style>
+</head>
+<body>
+<!-- VIEW: só apresenta os dados que o Controller entrega. Sem regra de negócio. -->
+<h1>Usuários</h1>
+<p><a href="/produtos">Ir para Produtos</a></p>
+
+<p class="ok" th:if="${sucesso}" th:text="${sucesso}"></p>
+<p class="erro" th:if="${erro}" th:text="${erro}"></p>
+
+<h2>Cadastrar</h2>
+<form th:action="@{/usuarios}" method="post">
+    Nome: <input name="nome" required>
+    <button>Cadastrar</button>
+</form>
+
+<h2>Buscar por Id</h2>
+<form th:action="@{/usuarios/buscar}" method="get">
+    Id: <input name="id" required>
+    <button>Buscar</button>
+</form>
+
+<h2>Lista</h2>
+<table border="1" cellpadding="6">
+    <tr><th>Id</th><th>Nome</th><th></th></tr>
+    <tr th:each="u : ${usuarios}">
+        <td th:text="${u.id}"></td>
+        <td th:text="${u.nome}"></td>
+        <td><a th:href="@{/usuarios/{id}(id=${u.id})}">Detalhes</a></td>
+    </tr>
+</table>
+</body>
+</html>

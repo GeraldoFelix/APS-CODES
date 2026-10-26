@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Produto</title>
+    <style>
+        body { font-family: sans-serif; margin: 2rem; }
+        .ok { color: #0a7a2f; }
+        .erro { color: #b00020; }
+        input { margin-right: .5rem; }
+    </style>
+</head>
+<body>
+<!-- VIEW: só apresenta os dados que o Controller entrega. Sem regra de negócio. -->
+<h1>Produto <span th:text="${produto.id}"></span></h1>
+
+<p class="ok" th:if="${sucesso}" th:text="${sucesso}"></p>
+<p class="erro" th:if="${erro}" th:text="${erro}"></p>
+
+<h2>Atualizar</h2>
+<form th:action="@{/produtos/{id}(id=${produto.id})}" method="post">
+    Nome: <input name="nome" th:value="${produto.nome}" required>
+    Preço: <input name="preco" th:value="${produto.preco}" required>
+    Id do usuário: <input name="idUsuario" th:value="${produto.idUsuario}" required>
+    <button>Atualizar</button>
+</form>
+
+<h2>Deletar</h2>
+<form th:action="@{/produtos/{id}/deletar(id=${produto.id})}" method="post">
+    <button>Deletar este produto</button>
+</form>
+
+<p><a href="/produtos">Voltar para a lista</a></p>
+</body>
+</html>
